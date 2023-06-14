@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* ---------------------------------------------- */
+header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+header p{
+    margin-left: 30%;
+    font-weight: 700;
+    font-size: 21px;
+}
+/* ---------------------------------------------- */
+.header-main{
+    height: 450px;
+    background-image: url('img/capa.jpg');
+    background-repeat: no-repeat;
+}
+.header-main div{
+    height: 30%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
+}
+.header-main p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    margin: auto 220px;
+    text-align: end;
+}
+/* ---------------------------------------------- */
+.about{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+    width: 60%;
+}
+.about h3{
+    align-self: flex-start;
+    margin-bottom: 10px;
+}
+.about #abParag{
+    margin: 0 0 15px 0;
+    width: 100%;
+}
+.about p{
+    width: 100%;
+    margin-top: 10px;
+}
