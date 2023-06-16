@@ -44,43 +44,54 @@
                 <h3>Registration Analysis</h3>
                 <p>Fill in the fields below, and we will analyze your information. <br>
                     If everything is correct, we will call to schedule a visit to our store.</p>
-                <form action="https://www.devmedia.com.br/codigos/formularios/aula9/">
+                <form action="https://www.devmedia.com.br/codigos/formularios/aula9/" method="post">
                     <fieldset>
                         <legend>Personal Data</legend>
                         <div class="card">
                             <label for="">Name</label>
-                            <input type="text" name="" id="" placeholder="typing your name" required>
+                            <input type="text" name="nome" id="" placeholder="typing your name" required>
                         </div>
                         <div class="card">
                             <label for="">Date of birth</label>
-                            <input type="date" name="" id="" required>
+                            <input type="date" name="data_nascimento" id="" required>
                         </div>
                         <div class="card">
                             <label for="">Phone number</label>
-                            <input type="tel" name="" id="" placeholder="(XX) XXXXX-XXXX" required>
+                            <input type="tel" name="telefone" id="" placeholder="(XX) XXXXX-XXXX" required>
                         </div>
                     </fieldset>
                     <fieldset>
                         <legend>CNH</legend>
                         <div class="card">
                             <label for="">Register number</label>
-                            <input type="number" name="" id="" placeholder="typing number your CNH" required>
+                            <input type="number" name="numero_registro" id="" placeholder="typing number your CNH" required>
                         </div>
                         <div class="card">
                             <label for="">Validate</label>
-                            <input type="date" name="" id="" required>
+                            <input type="date" name="validade" id="" required>
                         </div>
                     </fieldset>
                     <fieldset>
                         <legend>Car</legend>
                         <div class="card">
                             <label for="">Car Model</label>
-                            <select name="" id="" required>
+                            <select name="carro" id="" required>
                                 <option value="">Choose a car</option>
-                                <option value="1">VW</option>
-                                <option value="2">Chevrolet</option>
-                                <option value="3">Renault</option>
-                                <option value="4">Fiat</option>
+                                <optgroup label="Volkswagem">
+                                  <option value="gol">Gol</option>
+                                  <option value="golf">Golf</option>
+                                  <option value="fox">Fox</option>
+                                </optgroup>
+                                <optgroup label="Fiat">
+                                  <option value="uno">Uno</option>
+                                  <option value="siena">Siena</option>
+                                  <option value="Palio">Palio</option>
+                                </optgroup>
+                                <optgroup label="Nissan">
+                                  <option value="frontier">Frontier</option>
+                                  <option value="versa">Versa</option>
+                                  <option value="skyline">Skyline GT-R</option>
+                                </optgroup>
                             </select>
                         </div>
                     </fieldset>
